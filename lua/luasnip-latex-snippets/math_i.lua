@@ -12,7 +12,10 @@ function M.retrieve(is_math)
   }) --[[@as function]]
 
   return {
-    parse_snippet({ trig = "sum", name = "sum" }, "\\sum_{n=${1:1}}^{${2:\\infty}} ${3:a_n z^n}"),
+    parse_snippet(
+      { trig = "sum", name = "sum" },
+      "\\sum_{${1:k}=${2:0}}^{${3:\\infty}} ${4:a_n z^n}"
+    ),
 
     parse_snippet(
       { trig = "taylor", name = "taylor" },

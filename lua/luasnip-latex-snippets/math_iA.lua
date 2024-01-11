@@ -124,7 +124,7 @@ function M.retrieve(is_math)
     parse_snippet({ trig = "mcal", name = "mathcal" }, "\\mathcal{$1}$0"),
     parse_snippet({ trig = "mbb", name = "mathbb" }, "\\mathbb{$1}$0"),
     parse_snippet({ trig = "//", name = "Fraction" }, "\\frac{$1}{$2}$0"),
-    parse_snippet({ trig = "cmb", name = "Binom" }, "\\binom{$1}{$2}$0"),
+    parse_snippet({ trig = "/cmb", name = "Binom" }, "\\binom{$1}{$2}$0"),
     parse_snippet({ trig = "\\\\\\", name = "setminus" }, "\\setminus"),
     parse_snippet({ trig = "->", name = "to", priority = 100 }, "\\to "),
     parse_snippet({ trig = "-->", name = "long to", priority = 200 }, "\\longrightarrow "),

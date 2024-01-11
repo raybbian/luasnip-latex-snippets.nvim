@@ -59,7 +59,7 @@ local frac_node = {
 local cmb_node = {
   f(function(_, snip)
     local match = snip.trigger
-    local stripped = match:sub(1, #match - 1)
+    local stripped = match:sub(1, #match - 3)
 
     i = #stripped
     local depth = 0

@@ -140,7 +140,7 @@ function M.retrieve(is_math)
 
     s({
       priority = 1000,
-      trig = ".*%)/",
+      trig = ".*%)cmb",
       name = "() cmb",
       wordTrig = true,
     }, vim.deepcopy(cmb_node)),

@@ -157,6 +157,7 @@ function M.retrieve(is_math)
     parse_snippet({ trig = "UU", name = "cup" }, "\\cup "),
     parse_snippet({ trig = "NN", name = "n" }, "\\mathbb{N}"),
     parse_snippet({ trig = "PP", name = "prob" }, "\\mathbb{P}"),
+    parse_snippet({ trig = "exp", name = "expected val" }, "\\mathbb{E}"),
     parse_snippet({ trig = "||", name = "mid" }, " \\mid "),
     parse_snippet({ trig = "Nn", name = "cap" }, "\\cap "),
     parse_snippet({ trig = "bmat", name = "bmat" }, "\\begin{bmatrix} $1 \\end{bmatrix} $0"),
